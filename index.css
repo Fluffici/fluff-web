@@ -1,0 +1,180 @@
+h1 {
+	font-size: 60px;
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+}
+
+h2.h2-diacritics {
+	font-size: 40px;
+	font-family: 'Lexend Deca', cursive;
+	color: white;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+}
+
+p {
+	font-size: 20px;
+  	font-family: 'Lexend Deca', sans-serif;
+  	display: center;
+  	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+li {
+	font-size: 20px;
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+}
+
+p.icon-p {
+	font-size: 20px;
+  	font-family: 'Lexend Deca', sans-serif;
+  	display: inline;
+  	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+}
+
+p.fursuiters {
+	font-size: 20px;
+  	font-family: 'Lexend Deca', sans-serif;
+  	text-align: left;
+  	margin-left: 50px;
+	margin-right: 0px;
+	color: white;
+}
+
+button {
+	background-color: #FF0005;
+  	border: none;
+  	border-radius: 20px;
+  	box-shadow: 0px 0px 5px black;
+  	color: white;
+  	padding: 15px 32px;
+  	margin-top: 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	font-family: 'Lexend Deca', sans-serif;
+}
+
+button:hover {
+	background-color: 0A4FFF;
+	transition: 0.5s;
+	border-radius: 20px;
+}
+
+.footer {
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 0px;
+  	margin-right: 0px;
+  	background-color: #EEEEEE;
+  	border-radius: 25px;
+ }
+
+div {
+  	background-color: #0E1414;
+  	animation-name: fade-in;
+  	animation-duration: 2s;
+ }
+
+ div.header {
+  	background-color: #0E1414;
+  	animation-name: fade-in;
+  	animation-duration: 2s;
+ }
+
+@keyframes fade-in {
+ 	from {opacity: 0;}
+ 	to {opacity: 1;}
+ }
+
+ div.email {
+ 	margin-top: 50px;
+ }
+
+i {
+ 	margin-top: 10px;
+ 	display: inline;
+ }
+
+hr.dotted {
+ 	margin-top: 50px;
+  	border-top: 3px dotted #bbbbbb;
+  	color: white;
+}
+
+div.event-info-table {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #374040;
+	border-radius: 25px;
+	border-color: #666666;
+	border-width: 1px;
+	border-style: solid;
+}
+
+div.route-div {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #374040;
+	border-radius: 25px;
+	border-color: #666666;
+	border-width: 1px;
+	border-style: solid;
+}
+
+div.schedule-div {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #374040;
+	border-radius: 25px;
+	border-color: #666666;
+	border-width: 1px;
+	border-style: solid;
+}
+
+p.info-table-p {
+	display: inline;
+	margin-right: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+
+h3.info-table-h3 {
+	color: #FFFFFF;
+}
+
+img.route-img {
+	margin-top: 20px;
+	width: 100%;
+	border-radius: 25px;
+}
